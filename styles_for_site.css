@@ -1,0 +1,143 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background: url(images/main-bg.gif) repeat-x;
+    font: 13px/19px arial, helvetica;
+    color: #5F7A77;
+}
+#big_div
+{
+    border: 1px;
+    border-color: black;
+    margin-left: 18%;
+    position: relative;
+}
+header a img
+{
+    margin-top: 5px;
+    margin-left: 210px;
+}
+header p
+{
+    margin-left: 210px;
+    width: 200px;
+}
+.topbg
+{
+    position: absolute;
+    margin-left: -370px;
+    margin-top: -5px;
+}
+nav
+{
+    margin-top: -200px;
+    margin-left: 80px;
+    position: absolute;
+    height: 100px;
+}
+nav ul li
+{
+    list-style-image: url(images/bullet-normal.gif);
+}
+nav ul li:hover
+{
+    list-style-image: url(images/bullet-hover.gif);
+}
+main
+{
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+    border-left: 1px solid #C8E8E2;
+}
+.article
+{
+    position: relative;
+    width: 550px;
+    text-align: justify;
+}
+main section article img
+{
+    float: left;
+    margin-right: 10px;
+}
+main section article p
+{
+    margin-left: -5px;
+    margin-top: 0px;
+}
+.article_row
+{
+    background: url(images/sky-color-bg.gif);
+    background-repeat: repeat-x;
+    position: relative;
+    height: 21px;
+}
+.article_row a
+{
+    background: url(images/special.gif) 0 0 no-repeat #fff;
+    color: #958201;
+    margin: 0 0 0 328px;
+    padding: 4px 0 0 50px;
+    text-decoration: none;
+}
+aside
+{
+    position: relative;
+    margin-left: 100px;
+    width: 100px;
+    height: 500px;
+}
+aside ul
+{
+    padding-left: 0px;
+
+}
+aside ul li
+{
+    list-style-image: url(images/bullet2-normal.gif);
+    line-height: 2;
+}
+aside ul li:hover
+{
+    list-style-image: url(images/bullet2-hover.gif);
+}
+aside h2
+{
+    margin-top: 0;
+}
+footer
+{
+    height: 103px;
+    background: url(images/footerbg.gif) 0 0 repeat-x #D3F0F0;
+    color: #2F5958;
+    font: 13px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    clear: both;
+    padding: 36px 0 0;
+}
+footer div
+{
+    margin: 0 0 0 250px;
+}
+footer div ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer div ul li
+{
+    float: left;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+footer div ul li a
+{
+    text-decoration: none;
+    color: #2F5958;
+}
+
